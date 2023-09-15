@@ -25,8 +25,14 @@ public class StartTv {
 
     public String diminuirVolume(){
         if(ligada == true) {
-            volume--;
-            return("O volume foi diminuido para " + volume);
+            if (volume > 0){
+                volume--;
+                return("O volume foi diminuido para " + volume);
+            }
+            else {
+                return("A televisão está no volume mínimo");
+            }
+            
         } else {
             return("A televisão está desligada");
         }
@@ -41,6 +47,19 @@ public class StartTv {
             return("A televisão está desligada");
         }
         
+    }
+
+    public String canalAnterior(){
+        if(ligada == true) {
+            if(canal > 0){
+                canal--;
+                return("O canal foi alterado para " + canal);
+            } else {
+                return("Este é o primeiro canal, não há como retornar");
+            }
+        } else {
+            return("A televisão está desligada");
+        }
     }
 
     public String escolherCanal(int numCanal) {
