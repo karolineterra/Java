@@ -1,7 +1,5 @@
 package equipamentos.impressora;
 
-import javax.xml.transform.Source;
-
 public class Deskjet implements Impressora {
 
     @Override
