@@ -43,6 +43,5 @@ public class ListaTarefas {
 
         System.out.println(listaTarefa.obterNumeroTotalTarefas());
         listaTarefa.obterDescricoesTarefas();
-
     }
 }
