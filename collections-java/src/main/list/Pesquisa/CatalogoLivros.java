@@ -66,11 +66,11 @@ public class CatalogoLivros {
         biblioteca.adicionarLivro("It a Coisa", "Stephen King", 1998);
         biblioteca.adicionarLivro("Toda luz que não podemos ver", "Anthony Doerr", 2015);
 
-        // System.out.println(biblioteca.pesquisarPorAutor("Stephen King"));
-        // System.out.println(biblioteca.pesquisarPorAutor("Anthony Doerr"));
-        // System.out.println(biblioteca.pesquisarPorAutor("Karoline Terra"));
+        System.out.println(biblioteca.pesquisarPorAutor("Stephen King"));
+        System.out.println(biblioteca.pesquisarPorAutor("Anthony Doerr"));
+        System.out.println(biblioteca.pesquisarPorAutor("Karoline Terra"));
         System.out.println(biblioteca.pesquisarPorTitulo("It a Coisa"));
-        // System.out.println(biblioteca.pesquisarPorIntervaloAnos(2010, 2015));
+        System.out.println(biblioteca.pesquisarPorIntervaloAnos(2010, 2015));
     }
 
 }
