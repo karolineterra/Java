@@ -1,6 +1,5 @@
 package main.set.OperacoesBasicas;
 
-import java.text.BreakIterator;
 import java.util.HashSet;
 import java.util.Set;
 
